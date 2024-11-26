@@ -1,0 +1,25 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-code-block",
+    "friendlyName": "bb-code-block",
+    "description": "Display your code in budibase no matter what language your code is written in.",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "code",
+        "label": "Code",
+        "defaultValue": "console.log('Hello from budibase!')"
+      },
+      {
+        "type": "select",
+        "key": "theme",
+        "label": "Theme",
+        "options": ["Dark", "Light"],
+        "defaultValue": "Dark"
+      }
+    ]
+  }
+}
